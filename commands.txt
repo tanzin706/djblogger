@@ -5,3 +5,7 @@ print(get_random_secret_key())
 
 #install black
 pip install black
+
+#save requirements
+pip freeze > requirements.txt
+pip install -r requirements.txt
