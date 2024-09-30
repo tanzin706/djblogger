@@ -9,3 +9,10 @@ pip install black
 #save requirements
 pip freeze > requirements.txt
 pip install -r requirements.txt
+###testing from here###
+pip install pytest-django   
+pip install pytest-cov
+pytest --cov     
+pytest --cov-report html --cov=./
+pip install factory-boy
+pip install pytest-factoryboy
